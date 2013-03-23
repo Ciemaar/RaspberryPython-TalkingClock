@@ -1,0 +1,5 @@
+sudo apt-get install espeak python-espeak python-setuptools ipython python-feedparser
+sudo easy_install python-twitter
+
+
+
