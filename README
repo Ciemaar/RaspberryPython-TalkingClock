@@ -12,6 +12,7 @@ https://github.com/Ciemaar/RaspberryPython-TalkingClock
 --- Setup ---
 
 1.  Install the latest version of Raspian to your Pi.
+1b.  Be sure to set locale and timezone in raspi-config
 2.  Copy all this code to the /home/pi directory.
 3.  sudo apt-get install espeak python-espeak python-setuptools
 4.  sudo easy_install python-twitter
