@@ -1,1 +1,19 @@
-This file was created by PyCharm 2.7.1 for binding GitHub repository
+Use a Raspberry Pi, (or any computer) to make a talking clock that reads your twitter feed at regular intervals.
+
+This is the code for the MakerBar Class "Raspberry Python - Talking Clock," more details are available here:
+http://www.meetup.com/MakerBar/events/99976032/
+
+Slides are available here:
+http://prezi.com/kiw1tqx-232o/raspberry-python-talking-clock/?kw=view-kiw1tqx-232o&rc=ref-13789087
+
+This code lives here:
+https://github.com/Ciemaar/RaspberryPython-TalkingClock
+
+--- Setup ---
+
+1.  Install the latest version of Raspian to your Pi.
+2.  Copy all this code to the /home/pi directory.
+3.  sudo apt-get install espeak python-espeak python-setuptools
+4.  sudo easy_install python-twitter
+5.  Apply as a twitter developer to get a set of keys, replace the example keys in clock.cfg
+6.  run crontab -e to edit your crontab file so the clock speaks at regular intervals, use crontab.lst as a guide.
