@@ -18,3 +18,5 @@ https://github.com/Ciemaar/RaspberryPython-TalkingClock
 4.  sudo easy_install python-twitter
 5.  Apply as a twitter developer to get a set of keys, replace the example keys in clock.cfg
 6.  run crontab -e to edit your crontab file so the clock speaks at regular intervals, use crontab.lst as a guide.
+
+Copyright 2013 Andy Fundinger - Andy@MakerBar.com

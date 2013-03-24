@@ -1,3 +1,5 @@
+#Copyright 2013 Andy Fundinger
+
 from datetime import datetime
 from time import sleep
 import re

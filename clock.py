@@ -1,3 +1,5 @@
+#Copyright 2013 Andy Fundinger
+
 from ConfigParser import SafeConfigParser
 from datetime import datetime
 from time import sleep
